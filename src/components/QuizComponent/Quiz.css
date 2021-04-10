@@ -1,0 +1,70 @@
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-left: 3px solid blue;
+    position: relative;
+    top:50px;
+    margin: auto;
+    width:75%;
+    height:60vh;
+    background-color: white;
+}
+.question-section div:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    cursor:pointer;
+}
+.contain div,pre{ 
+    background-color: white;
+}
+.answer-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.answer-section  button{
+    cursor: pointer;
+    display: inline-block;
+    margin:10px 0px 25px 50px;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 50px;
+    width:400px;
+    height: 40px;
+}
+.buttons-section{
+    display: flex;
+    justify-content: center;
+}
+.buttons-section> button{
+    cursor: pointer;
+    margin-left: 30px;
+    outline: none;
+    border:1px solid black;
+    width:100px;
+    height:30px;
+    color: white;
+}
+.buttons-section button:first-child{
+    background-color: rgb(23, 166, 209);
+}
+.buttons-section button:last-child{
+    background-color:red;
+}
+.buttons-section button:nth-child(2){
+    background-color: green;
+}
+.question-section>pre{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.question{
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+}
