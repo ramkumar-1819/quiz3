@@ -1,3 +1,7 @@
 body{
   background-color: mediumslateblue;
 }
+a{
+  color: white;
+  text-decoration: none;
+}
